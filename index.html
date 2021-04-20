@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Education and Health</title>
+	<meta name="author" content="Anna Grace Calhoun">
+	<meta name="description" content="Government Spending on Education and Health">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="final-project.css">
+	<link rel="icon" type="image/x-icon" href=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="topHeader"><h1 id="pageTitle">Education and Health: Spending vs. Outcomes</h1></div>
+	<main>
+    <span id=disclaimer>Recommended for viewing in a full window. If you resize the page, just refresh it! Automatic rescaling coming soon :) </span> <br> <br> <br>
+    
+    <div id=intro> <span id=intro1>GOVERNMENT SPENDING HAS BEEN INCREASING</span> <span id=intro2>GOVERNMENT SPENDING HAS BEEN INCREASING</span></div>
+        
+    <div id="bodyP"><div id=firstCol><span class=firstTwo>The available long-run data shows that the role and size of governments around the world has changed dramatically in recent history. In early-industrilized countries specifically, <strong>public spending increased remarkably in the 20th century</strong>, with governments spending more resources on social protection, education, and healthcare.</span>
+
+        <span class=firstTwo id=secondF2>Data also shows a substantial difference in government spending across countries. Compared to low-income countries, government expenditure in high-income countries is typically much larger (per capita and as a share of GDP), and more focused on social protection.</span> </div>
+
+    <div id=mainPoints><span id="mainIdea">Let's take a high level look at how government spending is related to two key areas:<br><span id="keyAreas"> Education and Health</span><br><br>Below, we'll explore how spending in these sectors and key metrics of success change across time.</span><span id="keyQuestion"> How is this spending paying off?</span> </div>
+        </div> <br>
+        
+        <span id=instructionContainer><span id=instructions>To view change over time, click play or slide the slider to a particular year. To view the data for a specific bubble/country, hover over it.</span></span>
+        
+        <br> <br>
+        
+    <span class=sectionHeader>Education</span> <span class="dot">&#8226;</span> <span class=metricName> Government Expenditure on Education </span><span class="dot">&#8226;</span><span class=metricName> Primary Education Enrollment </span> <span class="dot">&#8226;</span> <span class=metricName> Private Primary Education Enrollment </span> 
+        
+    <div id="eduDiv">
+        <span id="eduAttach"></span>
+        <span class="eduTextSpan"><p class="sectionOverview">Government expenditure does not explain national differences in learning outcomes well.  Additional data suggests that school inputs (like teacher quality and incentivising academic effort) are more important for producing education once funding has reached a certain minimum threshold. </p>
+        <p class=sectionDetails>We'll look at primary education because cross-country estimates of returns to education have found that the highest returns come from primary education (moreso in less developed countries). It's required and provided by the state in almost all countries in the world. The number of out-of-school children has fallen by over 50 million since the late 1990s, but progress has not been even. In 2014, 1-in-5 primary aged children in Sub-Saharan Africa were out-of-school. However, current projections predict that the proportion of people receiving no education at all will converge to zero by 2050. </p>
+            <p class=dataQ>How are these metrics measured?</p>
+            <p class="dataText"><strong>Government expenditure on education </strong>(current, capital, and transfers) is expressed as a percentage of total government expenditure on all sectors.</p>
+            <p class=dataText><strong>Total enrollment in primary education</strong>, regardless of age, is expressed as a percentage of the official primary education aged population. This can exceed 100% due to the inclusion of over-aged and under-aged students, early or late school entrance, and grade repetition.</p>
+            <p class="dataText"><strong>Private Primary School Enrollment</strong> is the total number of students in primary education enrolled in institutions that are not operated by a public authority but controlled and managed, whether for profit or not, by a private body. This is expressed as a percentage of the total number of students enrolled in primary education.</p>
+        </span>
+        </div>
+        <br><br>
+        <span class=sectionHeader>Health</span> <span class="dot">&#8226;</span> <span class=metricName> Total Health Expenditure </span><span class="dot">&#8226;</span><span class=metricName> Life Expectancy </span> <span class="dot">&#8226;</span> <span class=metricName> Out of Pocket Expenditures </span> 
+    
+    <div id="healthDiv">
+        <span id="healthAttach"></span>
+
+        <span class="healthText"> <p class=sectionOverview>There are huge differences in total health care spending per capita countries, with global expenditure increasing slowly but steadily over the last few decades.</p>
+        <p class=sectionDetails>Because healthcare financing systems vary so largely across countries, we'll look at total (rather than just government) expenditure. Data from early healthcare systems shows that healthcare expenditure only began rising after the expansion of insurance coverage and the discovery of impactful new treatments. High-income countries do and have been spending almost twice as much on healthcare as low-income countries. Healthcare financing in developing countries in the 21st century has been largely influenced by resources from development assistance, particularly following agreement to the Millenium Development Goals.</p>
+        
+        <p class=dataQ>How are these metrics measured?</p>
+        <p class="dataText"><strong>Total health expenditure</strong> is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventative and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation.</p>
+        <p class="dataText"><strong>Life Expectancy</strong> is the average age of death.</p>
+        <p class="dataText"><strong>Out of pocket expenditures</strong> are any direct outlay by households, including gratiuties and in-kind payments, to health practitioners and suppliers of pharmaceuticals, therapeutic appliance, and other goods and services whose primary intent is to contribute to the restoration or enhancement of the health status of individuals or population groups. It is expressed as a percentage of total expenditure on health.</p>
+        
+        </span>
+        
+    </div>
+        
+     <input type="range" id=sliderEdu min="10" max="100">
+    <button style="font-size:16px" id=eduPlay>Play <i class="fa fa-play"></i></button>
+     <button style="font-size:16px" id=eduPause>Pause <i class="fa fa-pause"></i></button>
+    <input type="range" id=sliderHealth min="10" max="100">
+    <button style="font-size:16px" id=healthPlay>Play <i class="fa fa-play"></i></button>
+     <button style="font-size:16px" id=healthPause>Pause <i class="fa fa-pause"></i></button>    
+
+       
+        <span id=caveatsContainer><span id=caveats> Understanding how spending relates to outcomes is important for understanding the world and crafting new funding policies. However, keep in mind that this overview is somewhat limited due to data availiablity - not all countries are represented and only a few metrics of success are examined. Also, correlations can only tell us so much. These outcomes are effected by qualities of the funding (how it's distributed, what specifically it's used for, etc.), as well as the numerous other factors that impact health and education.<br></span></span> 
+        
+        <span id="dataSources"><h3 id=dataSourceTitle>Data Sources</h3> 
+            <p><strong>Government Expenditure on Education:</strong> UNESCO Institute for Statistics (<a href="http://data.worldbank.org/">World Bank</a>)</p>
+            <p><strong>Health Expenditure per Capita:</strong> World Bank - World Development Indicators (<a href=" http://apps.who.int/nha/database">World Health Organization Global Health Expenditure database (has most recent updates)</a>)</p>
+            <p><strong>Life Expectancy:</strong> Global Burden of Disease Collaborative Network (<a href="http://ghdx.healthdata.org/gbd-results-tool">Insitite of Health Metrics and Evaluation, Global Burden of Disease</a>)</p>
+            <p><strong>Out-of-pocket Health Expenditure:</strong> World Bank - World Development Indicators (<a href="http://apps.who.int/nha/database">World Health Organization Global Health Expenditure database</a>)</p>
+            <p><strong>Gross Primary School Enrollment Ratio:</strong> World Bank EdStats (<a href="https://data.worldbank.org/data-catalog/ed-stats">World Bank EduStats</a>)</p>
+             <p><strong>Percentage of Enrollment in Primary Education in Private Institutions:</strong> World Bank EdStats (<a href="https://data.worldbank.org/data-catalog/ed-stats">World Bank EduStats</a>)</p>
+        </span>
+
+
+    
+    </main>
+	<footer></footer>
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="final-project.js"></script>
+</body>
+
+</html>

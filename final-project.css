@@ -1,0 +1,220 @@
+/* https://coolors.co/006d77-83c5be-edf6f9-ffddd2-e29578 */
+
+* {
+    font-family: Alata; 
+}
+.eduTextSpan {  
+    width: auto; 
+    font-family: Alata; 
+}
+
+
+#eduAttach {
+    margin-right: 30px; 
+}
+
+#edu-main {
+ display: inline;
+    
+}
+
+#eduDiv {
+ display: flex;
+align-items: center;
+vertical-align: top; 
+background-color: #edf6f9; 
+}
+
+
+#healthDiv{
+   display: flex;
+    align-items: center;
+    vertical-align: top;
+    background-color: #edf6f9;
+}
+#health-main {
+    display: inline; 
+}
+
+.healthText {
+    width: auto;
+}
+
+#healthAttach {
+    margin-right: 30px; 
+}
+
+.xaxisLabel {
+    font-size: 14px; 
+    font-weight: 700; 
+}
+
+.yaxisLabel {
+    font-size: 14px;
+    font-weight: 700;
+}
+#bodyP {
+    color: #e29578;
+}
+
+#pageTitle {
+    color: #006d77; 
+    font-size: 30px;
+    border-bottom: 5px solid #ffddd2;  
+    margin-top: 0px;
+}
+
+#keyQuestion {
+    font-size: 48px; 
+    color: #83c5be;
+    background-color: white;
+    font-weight: 700; 
+    margin-left: 5px; 
+    text-align: center;
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+}
+
+#keyAreas {
+    font-size: 30px;
+    color: #83c5be;
+}
+
+#caveats {
+    background-color: white;
+    color: #83c5be;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 7px; 
+    padding-bottom: 7px;
+    max-width: 600px;
+    border: 3px solid #006d77;
+}
+
+.firstTwo {
+    font-size: 18px;
+    border-bottom: 5px solid white;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    width: 50%;
+}
+
+#mainIdea {
+    padding-left: 5px; 
+     background-color : #ffddd2; 
+    padding-right: 10px;
+    flex: 1; 
+}
+
+.sectionHeader {
+    font-size: 35px;
+    color: #006d77; 
+}
+
+.sectionOverview {
+    font-size: 22px; 
+    color: #e29578; 
+}
+
+.dataQ {
+    color: #006d77;
+}
+
+.dataText {
+    font-size: 12px;
+}
+
+.dot {
+    color: #83c5be; 
+    padding-bottom: 5px; 
+}
+
+.metricName {
+    padding-bottom: 5px;
+    font-size: 22px;
+   color : #ffddd2;  
+}
+
+#firstCol {
+    display: flex; 
+    justify-content: center;
+    align-items: top;
+}
+
+#secondF2 {
+    border-left: 7px solid white;
+    padding-left: 12px; 
+}
+
+#intro {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#intro1 {
+ font-size: 40px;
+ font-weight: 800;
+color: #006d77; 
+    margin-right: -438px;
+    mix-blend-mode: lighten;
+    margin-bottom: 10px;
+    
+}
+
+#intro2 {
+    font-size: 40px; 
+    font-weight: 800;
+    color: #83c5be;
+    margin-left: -438px; 
+    mix-blend-mode: hue;
+    opacity: .5;
+    margin-bottom: 10px;
+}
+
+#mainPoints {
+    display: flex; 
+    justify-content: space-between;
+    position: relative; 
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#caveatsContainer {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+#dataSourceTitle {
+    padding-top: 5px; 
+    border-top: 5px solid #ffddd2; 
+}
+
+#disclaimer {
+    margin-top: 0px; 
+    text-align: center; 
+    margin-bottom: 0px; 
+    font-size: 13px; 
+    color: #83c5be; 
+}
+
+#topHeader {
+    margin-bottom: 0px; 
+}
+
+#instructionContainer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#instructions {
+    font-size: 18px; 
+    color: #006d77; 
+    border: 5px solid #edf6f9; 
+    padding-top: 5px; 
+    padding-bottom: 5px;  
+}
